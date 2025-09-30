@@ -1,0 +1,169 @@
+{
+"product": [
+        {
+            "id": 1,
+            "name": "Canon EOS R5",
+            "model": "R5 Body",
+            "type": "Mirrorless",
+            "price": 3899,
+            "image_url": "/images/canon/canon1.png",
+            "user_level": "master",
+            "version": "new",
+            "description": "45MP Full-frame, 8K Video, 20fps Continuous Shooting"
+        },
+        {
+            "id": 2,
+            "name": "Canon RF85mm",
+            "model": "f/1.2L USM",
+            "type": "Prime Lens",
+            "price": 2699,
+            "image_url": "/images/canon/canon2.png",
+            "user_level": "chuyên gia",
+            "version": "special",
+            "description": "f/1.2 Aperture, 1:8 Lens Ratio, USM Autofocus"
+        },
+        {
+            "id": 3,
+            "name": "Canon RF50mm",
+            "model": "f/1.2L USM",
+            "type": "Prime Lens",
+            "price": 2299,
+            "image_url": "/images/canon/canon3.png",
+            "user_level": "chuyên gia",
+            "version": "special",
+            "description": "f/1.2 Aperture, 1:8 Lens Ratio, USM Autofocus"
+        },
+        {
+            "id": 4,
+            "name": "Canon RF70-200mm",
+            "model": "f/2.8L IS USM",
+            "type": "Telephoto Lens",
+            "price": 2199,
+            "image_url": "/images/canon/canon4.png",
+            "user_level": "chuyên gia",
+            "version": "new",
+            "description": "70-200mm Zoom, f/2.8 Aperture, Image Stabilization"
+        },
+        {
+            "id": 5,
+            "name": "Canon EOS 5D Mark IV",
+            "model": "5D IV Body",
+            "type": "DSLR",
+            "price": 2499,
+            "image_url": "/images/canon/canon5.png",
+            "user_level": "master",
+            "version": "old",
+            "description": "30.4MP Full-frame, 7fps Shooting, 4K Video"
+        },
+        {
+            "id": 6,
+            "name": "Canon EOS R6",
+            "model": "R6 Body",
+            "type": "Mirrorless",
+            "price": 2499,
+            "image_url": "/images/canon/canon6.png",
+            "user_level": "master",
+            "version": "new",
+            "description": "20MP Full-frame, 12fps Shooting, 4K Video"
+        },
+        {
+            "id": 7,
+            "name": "Canon EOS 90D",
+            "model": "90D Body",
+            "type": "DSLR",
+            "price": 1199,
+            "image_url": "/images/canon/canon7.png",
+            "user_level": "nghiệp dư",
+            "version": "new",
+            "description": "32.5MP APS-C, 10fps Shooting, 4K Video"
+        },
+        {
+            "id": 8,
+            "name": "Canon EOS Rebel T8i",
+            "model": "T8i Body",
+            "type": "DSLR",
+            "price": 899,
+            "image_url": "/images/canon/canon8.png",
+            "user_level": "mới",
+            "version": "new",
+            "description": "24MP APS-C, 7fps Shooting, 4K Video"
+        },
+        {
+            "id": 9,
+            "name": "Canon EOS M50 Mark II",
+            "model": "M50 II Body",
+            "type": "Mirrorless",
+            "price": 699,
+            "image_url": "/images/canon/canon9.png",
+            "user_level": "mới",
+            "version": "new",
+            "description": "24MP APS-C, 10fps Shooting, 4K Video"
+        },
+        {
+            "id": 10,
+            "name": "Canon PowerShot G7 X Mark III",
+            "model": "G7 X III",
+            "type": "Compact",
+            "price": 749,
+            "image_url": "/images/canon/canon10.png",
+            "user_level": "nghiệp dư",
+            "version": "new",
+            "description": "20MP 1-inch sensor, 4.2x Optical Zoom, 4K Video"
+        },
+        {
+            "id": 11,
+            "name": "Canon PowerShot SX740 HS",
+            "model": "SX740 HS",
+            "type": "Compact",
+            "price": 399,
+            "image_url": "/images/canon/canon11.png",
+            "user_level": "mới",
+            "version": "new",
+            "description": "20MP 1/2.3-inch sensor, 40x Optical Zoom, Full HD Video"
+        },
+        {
+            "id": 12,
+            "name": "Canon PIXMA G1730",
+            "model": "PIXMA G1730",
+            "type": "Printer",
+            "price": 249,
+            "image_url": "/images/canon/canon12.png",
+            "user_level": "mới",
+            "version": "new",
+            "description": "High-speed printing, Low-cost ink bottles, Wireless Printing"
+        },
+        {
+            "id": 13,
+            "name": "Canon SELPHY QX20",
+            "model": "SELPHY QX20",
+            "type": "Compact Printer",
+            "price": 199,
+            "image_url": "/images/canon/canon13.png",
+            "user_level": "mới",
+            "version": "new",
+            "description": "Wireless Printing, Compact Size, 300x300dpi"
+        },
+        {
+            "id": 14,
+            "name": "Canon RF24-105mm",
+            "model": "f/2.8L IS USM Z",
+            "type": "Zoom Lens",
+            "price": 1299,
+            "image_url": "https://vn.canon/media/image/2023/10/30/93caf74f6ba84064a40eb3ed961de474_RF24-105mm+f2.8L+IS+USM+Z+Front+Slant.png",
+            "user_level": "chuyên gia",
+            "version": "special",
+            "description": "24-105mm Zoom, f/2.8 Aperture, Image Stabilization"
+        },
+        {
+            "id": 15,
+            "name": "Canon EOS R50 V",
+            "model": "RF-S14-30mm f/4-6.3 IS STM PZ",
+            "type": "Mirrorless",
+            "price": 849,
+            "image_url": "https://vn.canon/media/image/2025/03/26/eb5e5b55b00f4126af70fbb0d428e22b_EOS+R50+V+Black_FrontSlantLeft+w+RF-S14-30mm+f4-6.3+IS+STM.png",
+            "user_level": "mới",
+            "version": "new",
+            "description": "24MP APS-C, 10fps Shooting, 4K Video"
+        }
+    ]
+}

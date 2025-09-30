@@ -44,9 +44,12 @@ body {
   width: auto;
   display: block;
 }
+
 a {
-  color: inherit;        /* kế thừa màu từ parent */
-  text-decoration: none; /* bỏ gạch chân nếu muốn */
+  color: inherit;
+  /* kế thừa màu từ parent */
+  text-decoration: none;
+  /* bỏ gạch chân nếu muốn */
 }
 
 a:visited {
@@ -54,9 +57,32 @@ a:visited {
 }
 
 a:hover {
-  color: #007bff;        /* hoặc màu bạn muốn khi hover */
+  color: #007bff;
+  /* hoặc màu bạn muốn khi hover */
 }
 
 a:active {
-  color: #0056b3;        /* hoặc màu bạn muốn khi click */
+  color: #0056b3;
+  /* hoặc màu bạn muốn khi click */
+}
+
+/* compare product */
+.compare-select {
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.product-image {
+  max-height: 120px;
+}
+
+table th,
+table td {
+  vertical-align: middle;
+  text-align: center;
+}
+
+table td:first-child {
+  text-align: left;
+  font-weight: bold;
 }
