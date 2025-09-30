@@ -1,0 +1,62 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.top-header {
+  font-size: 14px;
+  padding-top: 20px;
+  padding-bottom: 8px;
+  height: 100px;
+}
+
+.top-header .nav-link {
+  color: #333;
+  padding: 0 .5rem;
+}
+
+.top-header .nav-link.active {
+  color: #c00;
+  /* Canon red */
+  font-weight: 600;
+}
+
+.main-nav {
+  background-color: #333;
+}
+
+.main-nav .nav-link {
+  color: #fff;
+  padding: .5rem 1rem;
+}
+
+.main-nav .nav-link:hover {
+  color: #ddd;
+}
+
+.top-header .nav {
+  margin-right: 7.8rem;
+  /* right links thụt phải */
+}
+
+.carousel-inner img {
+  max-width: 100%;
+  height: 600px;
+  width: auto;
+  display: block;
+}
+a {
+  color: inherit;        /* kế thừa màu từ parent */
+  text-decoration: none; /* bỏ gạch chân nếu muốn */
+}
+
+a:visited {
+  color: inherit;
+}
+
+a:hover {
+  color: #007bff;        /* hoặc màu bạn muốn khi hover */
+}
+
+a:active {
+  color: #0056b3;        /* hoặc màu bạn muốn khi click */
+}
