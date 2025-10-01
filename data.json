@@ -6,7 +6,7 @@
             "model": "R5 Body",
             "type": "Mirrorless",
             "price": 3899,
-            "image_url": "/images/canon/canon1.png",
+            "image_url": "/images/canon1.png",
             "user_level": "master",
             "version": "new",
             "description": "45MP Full-frame, 8K Video, 20fps Continuous Shooting"
@@ -17,7 +17,7 @@
             "model": "f/1.2L USM",
             "type": "Prime Lens",
             "price": 2699,
-            "image_url": "/images/canon/canon2.png",
+            "image_url": "/images/canon2.png",
             "user_level": "chuyên gia",
             "version": "special",
             "description": "f/1.2 Aperture, 1:8 Lens Ratio, USM Autofocus"
@@ -28,7 +28,7 @@
             "model": "f/1.2L USM",
             "type": "Prime Lens",
             "price": 2299,
-            "image_url": "/images/canon/canon3.png",
+            "image_url": "/images/canon3.png",
             "user_level": "chuyên gia",
             "version": "special",
             "description": "f/1.2 Aperture, 1:8 Lens Ratio, USM Autofocus"
@@ -39,7 +39,7 @@
             "model": "f/2.8L IS USM",
             "type": "Telephoto Lens",
             "price": 2199,
-            "image_url": "/images/canon/canon4.png",
+            "image_url": "/images/canon4.png",
             "user_level": "chuyên gia",
             "version": "new",
             "description": "70-200mm Zoom, f/2.8 Aperture, Image Stabilization"
@@ -50,7 +50,7 @@
             "model": "5D IV Body",
             "type": "DSLR",
             "price": 2499,
-            "image_url": "/images/canon/canon5.png",
+            "image_url": "/images/canon5.png",
             "user_level": "master",
             "version": "old",
             "description": "30.4MP Full-frame, 7fps Shooting, 4K Video"
@@ -61,7 +61,7 @@
             "model": "R6 Body",
             "type": "Mirrorless",
             "price": 2499,
-            "image_url": "/images/canon/canon6.png",
+            "image_url": "/images/canon6.png",
             "user_level": "master",
             "version": "new",
             "description": "20MP Full-frame, 12fps Shooting, 4K Video"
@@ -72,7 +72,7 @@
             "model": "90D Body",
             "type": "DSLR",
             "price": 1199,
-            "image_url": "/images/canon/canon7.png",
+            "image_url": "/images/canon7.png",
             "user_level": "nghiệp dư",
             "version": "new",
             "description": "32.5MP APS-C, 10fps Shooting, 4K Video"
@@ -83,7 +83,7 @@
             "model": "T8i Body",
             "type": "DSLR",
             "price": 899,
-            "image_url": "/images/canon/canon8.png",
+            "image_url": "/images/canon8.png",
             "user_level": "mới",
             "version": "new",
             "description": "24MP APS-C, 7fps Shooting, 4K Video"
@@ -94,7 +94,7 @@
             "model": "M50 II Body",
             "type": "Mirrorless",
             "price": 699,
-            "image_url": "/images/canon/canon9.png",
+            "image_url": "/images/canon9.png",
             "user_level": "mới",
             "version": "new",
             "description": "24MP APS-C, 10fps Shooting, 4K Video"
@@ -105,7 +105,7 @@
             "model": "G7 X III",
             "type": "Compact",
             "price": 749,
-            "image_url": "/images/canon/canon10.png",
+            "image_url": "/images/canon10.png",
             "user_level": "nghiệp dư",
             "version": "new",
             "description": "20MP 1-inch sensor, 4.2x Optical Zoom, 4K Video"
@@ -116,7 +116,7 @@
             "model": "SX740 HS",
             "type": "Compact",
             "price": 399,
-            "image_url": "/images/canon/canon11.png",
+            "image_url": "/images/canon11.png",
             "user_level": "mới",
             "version": "new",
             "description": "20MP 1/2.3-inch sensor, 40x Optical Zoom, Full HD Video"
@@ -127,7 +127,7 @@
             "model": "PIXMA G1730",
             "type": "Printer",
             "price": 249,
-            "image_url": "/images/canon/canon12.png",
+            "image_url": "/images/canon12.png",
             "user_level": "mới",
             "version": "new",
             "description": "High-speed printing, Low-cost ink bottles, Wireless Printing"
@@ -138,7 +138,7 @@
             "model": "SELPHY QX20",
             "type": "Compact Printer",
             "price": 199,
-            "image_url": "/images/canon/canon13.png",
+            "image_url": "/images/canon13.png",
             "user_level": "mới",
             "version": "new",
             "description": "Wireless Printing, Compact Size, 300x300dpi"
