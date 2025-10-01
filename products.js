@@ -14,7 +14,7 @@ fetch('data.json')
             col.className = 'col-md-4 d-flex align-items-stretch';
             col.innerHTML = `
                 <div class="card shadow-sm border-0 w-100 mb-4">
-                    <img src="/images/${product.folder}/${product.image_url}" class="card-img-top" alt="${product.name}">
+                    <img src="./images/${product.image_url}" class="card-img-top" alt="${product.name}">
                     <div class="card-body d-flex flex-column">
                         <div class="mb-2">
                             <span class="badge bg-danger me-1">${product.version}</span>
