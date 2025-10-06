@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cập nhật thông tin tài khoản</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .form-container { max-width: 720px; }
+    </style>
+</head>
+
+<body>
+    <div class="container-lg top-header d-flex justify-content-between align-items-center px-0 mx-auto">
+        <div class="d-flex align-items-center m-3 p-2">
+            <a href="index.html" class="me-2">
+                <img src="./images/logo.png" alt="Canon Logo" height="40">
+            </a>
+            <span class="text-muted">Vietnam</span>
+        </div>
+
+        <ul class="nav align-items-center p-0 me-0">
+            <li class="nav-item"><a class="nav-link active" href="#">Consumer</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Business</a></li>
+            <li class="nav-item"><a class="nav-link" href="#" aria-label="Search"><i class="fa fa-search"></i></a></li>
+            <li class="nav-item"><a class="nav-link active" href="#">ENG</a></li>
+            <li class="nav-item"><span class="text-muted">|</span></li>
+            <li class="nav-item"><a class="nav-link" href="#">Việt</a></li>
+        </ul>
+    </div>
+
+    <nav class="navbar navbar-expand-lg main-nav sticky-top">
+        <div class="container-lg px-0 mx-auto">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item"><a class="nav-link" href="index.html">Products</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Where to Buy</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Sustainability</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Press Room</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Explore CB Space</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Events</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#">My Orders</a></li>
+                <li class="nav-item"><a class="nav-link active" href="update_account.html">My Informations</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container my-5 form-container">
+        <h1 class="h3 mb-4">Cập nhật thông tin tài khoản</h1>
+
+        <div class="alert alert-success d-none" id="saveSuccess" role="alert">
+            Lưu thông tin thành công.
+        </div>
+        <div class="alert alert-danger d-none" id="saveError" role="alert">
+            Vui lòng kiểm tra lại các trường thông tin.
+        </div>
+
+        <form id="accountForm" novalidate>
+            <div class="mb-3">
+                <label for="fullName" class="form-label">Họ và tên</label>
+                <input type="text" class="form-control" id="fullName" name="fullName" required
+                    placeholder="VD: Nguyễn Văn A">
+                <div class="invalid-feedback">Vui lòng nhập họ tên.</div>
+            </div>
+
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" name="email" required
+                    placeholder="name@example.com">
+                <div class="invalid-feedback">Email không hợp lệ.</div>
+            </div>
+
+            <div class="mb-3">
+                <label for="phone" class="form-label">Số điện thoại</label>
+                <input type="tel" class="form-control" id="phone" name="phone" required
+                    pattern="^(0|\+84)[0-9]{9,10}$" placeholder="VD: 0912345678 hoặc +84912345678">
+                <div class="invalid-feedback">Số điện thoại không hợp lệ.</div>
+            </div>
+
+            <div class="mb-3">
+                <label for="address" class="form-label">Địa chỉ</label>
+                <input type="text" class="form-control" id="address" name="address" required placeholder="Địa chỉ">
+                <div class="invalid-feedback">Vui lòng nhập địa chỉ.</div>
+            </div>
+
+            <div class="mb-3">
+                <label for="password" class="form-label">Mật khẩu</label>
+                <div class="input-group">
+                    <input type="password" class="form-control" id="password" name="password" required
+                        minlength="6" placeholder="Tối thiểu 6 ký tự">
+                    <button class="btn btn-outline-secondary" type="button" id="togglePassword" aria-label="Hiện/ẩn mật khẩu">
+                        <i class="fa fa-eye"></i>
+                    </button>
+                    <div class="invalid-feedback">Mật khẩu tối thiểu 6 ký tự.</div>
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label for="confirmPassword" class="form-label">Nhập lại mật khẩu</label>
+                <input type="password" class="form-control" id="confirmPassword" name="confirmPassword" required
+                    minlength="6" placeholder="Nhập lại mật khẩu">
+                <div class="invalid-feedback">Mật khẩu nhập lại không khớp.</div>
+            </div>
+
+            <div class="d-flex gap-2">
+                <button type="submit" class="btn btn-primary">Lưu thay đổi</button>
+                <button type="button" class="btn btn-outline-secondary" id="resetBtn">Khôi phục dữ liệu đã lưu</button>
+                <button type="button" class="btn btn-outline-danger" id="clearBtn">Xóa dữ liệu</button>
+            </div>
+        </form>
+    </div>
+
+    <footer class="footer bg-light text-dark d-none d-md-block pt-4 px-0 mx-auto">
+        <div class="container">
+            <div class="text-end mb-3">
+                <a href="#" class="btn btn-outline-secondary btn-sm js-back-to-top">
+                    <i class="fa fa-angle-up me-1"></i> Back to top
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        (function () {
+            const form = document.getElementById('accountForm');
+            const saveSuccess = document.getElementById('saveSuccess');
+            const saveError = document.getElementById('saveError');
+
+            const fullNameEl = document.getElementById('fullName');
+            const emailEl = document.getElementById('email');
+            const phoneEl = document.getElementById('phone');
+            const addressEl = document.getElementById('address');
+            const passwordEl = document.getElementById('password');
+            const confirmPasswordEl = document.getElementById('confirmPassword');
+
+            const STORAGE_KEY = 'accountInfo';
+
+            function showAlert(el) {
+                el.classList.remove('d-none');
+                setTimeout(() => el.classList.add('d-none'), 2000);
+            }
+
+            function loadFromStorage() {
+                try {
+                    const raw = localStorage.getItem(STORAGE_KEY);
+                    if (!raw) return;
+                    const data = JSON.parse(raw);
+                    fullNameEl.value = data.fullName || '';
+                    emailEl.value = data.email || '';
+                    phoneEl.value = data.phone || '';
+                    addressEl.value = data.address || '';
+                } catch (e) {
+                    // ignore parse error
+                }
+            }
+
+            function saveToStorage() {
+                const data = {
+                    fullName: fullNameEl.value.trim(),
+                    email: emailEl.value.trim(),
+                    phone: phoneEl.value.trim(),
+                    address: addressEl.value.trim(),
+                    // Lưu hash thực tế ở backend. Ở demo này KHÔNG lưu mật khẩu.
+                };
+                localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
+            }
+
+            function validatePasswordsMatch() {
+                if (passwordEl.value !== confirmPasswordEl.value) {
+                    confirmPasswordEl.setCustomValidity('not-match');
+                } else {
+                    confirmPasswordEl.setCustomValidity('');
+                }
+            }
+
+            document.getElementById('togglePassword').addEventListener('click', function () {
+                const isPassword = passwordEl.type === 'password';
+                passwordEl.type = isPassword ? 'text' : 'password';
+                this.querySelector('i').classList.toggle('fa-eye');
+                this.querySelector('i').classList.toggle('fa-eye-slash');
+            });
+
+            document.getElementById('resetBtn').addEventListener('click', function () {
+                loadFromStorage();
+            });
+
+            document.getElementById('clearBtn').addEventListener('click', function () {
+                localStorage.removeItem(STORAGE_KEY);
+                form.reset();
+            });
+
+            passwordEl.addEventListener('input', validatePasswordsMatch);
+            confirmPasswordEl.addEventListener('input', validatePasswordsMatch);
+
+            form.addEventListener('submit', function (e) {
+                e.preventDefault();
+                validatePasswordsMatch();
+
+                if (!form.checkValidity()) {
+                    form.classList.add('was-validated');
+                    showAlert(saveError);
+                    return;
+                }
+
+                saveToStorage();
+                showAlert(saveSuccess);
+            });
+
+            loadFromStorage();
+        })();
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
+
+
