@@ -41,7 +41,7 @@
         <div class="container-fluid justify-content-center">
             <ul class="navbar-nav flex-row flex-wrap gap-4">
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="">Các sản phẩm</a>
+                    <a class="nav-link text-danger fw-bold" href="">Các sản phẩm</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-white" href="">Dịch vụ kinh doanh</a>
@@ -62,7 +62,7 @@
                     <a class="nav-link text-white" href="">Liên hệ</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-danger fw-bold" href="">Thay đổi thông tin</a>
+                    <a class="nav-link text-white" href="">Thay đổi thông tin</a>
                 <li class="nav-item">
                 </li>
                 <li class="nav-item">
@@ -76,74 +76,67 @@
 <body>
     <main class="py-5">
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-10 border rounded shadow p-4 bg-light">
+            <div class="text-center mb-4">
+                <h2>Đơn hàng của bạn</h2>
+                <p>Kiểm tra trạng thái đơn hàng bạn đã mua từ Canon Việt Nam.</p>
+            </div>
 
-                    <!-- 🧭 Centered Intro Text -->
-                    <div class="text-center mb-4">
-                        <h4 class="fs-1">Cập nhật thông tin cá nhân</h4>
-                        <p>
-                            Nếu bạn nhập sai hoặc muốn thay đổi thông tin cá nhân bạn gửi cho Canon, hãy nhập thông tin
-                            mới vào form bên dưới.<br>
-                            Chúng tôi sẽ cố gắng thay đổi thông tin của bạn ngay lập tức.
-                        </p>
-                    </div>
-
-                    <hr>
-
-                    <div class="row">
-                        <div class="col-md-6">
-                            <p><strong>Công ty TNHH Canon Marketing Việt Nam</strong><br>
-                                Phòng 702, Tầng 7, Tòa nhà The Plaza<br>
-                                54-56 Nguyễn Huệ, P. Bến Nghé, Q.1, TP. Hồ Chí Minh</p>
-
-                            <p><strong>Chi Nhánh tại Hà Nội</strong><br>
-                                Tầng 11, Tòa nhà Daeha Business Center<br>
-                                360 Kim Mã, P. Ngọc Khánh, Q. Ba Đình, TP. Hà Nội</p>
-
-                            <button type="submit" class="btn btn-outline-danger rounded-pill">Liên hệ chúng tôi - Canon
-                                Vietnam
-                                ></button>
-                        </div>
-
-                        <div class="col-md-6">
-                            <form>
-                                <div class="mb-3">
-                                    <select class="form-select rounded-pill" id="title">
-                                        <option selected disabled>Thay đổi danh xưng mới</option>
-                                        <option>Ông</option>
-                                        <option>Bà</option>
-                                        <option>Không muốn nói đến</option>
-                                        <option>Không có danh xưng</option>
-                                    </select>
-                                </div>
-
-                                <div class="mb-3">
-                                    <input type="text" class="form-control rounded-pill" id="name"
-                                        placeholder="Thay đổi họ và tên...">
-                                </div>
-
-                                <div class="mb-3">
-                                    <input type="tel" class="form-control rounded-pill" id="phone"
-                                        placeholder="Thay đổi số điện thoại...">
-                                </div>
-
-                                <div class="mb-3">
-                                    <input type="email" class="form-control rounded-pill" id="email"
-                                        placeholder="Thay đổi gmail..">
-                                </div>
-
-                                <div class="mb-3">
-                                    <input class="form-control rounded-pill" id="city"
-                                        placeholder="Thay đổi thành phố / Tỉnh ...">
-                                </div>
-
-                                <button type="submit" class="btn btn-primary btn-danger rounded-pill">Gửi thông tin
-                                    mới</button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
+            <div class="table-responsive">
+                <table class="table table-bordered table-hover align-middle">
+                    <thead class="table-dark text-center">
+                        <tr>
+                            <th>Mã đơn hàng</th>
+                            <th>Sản phẩm</th>
+                            <th>Ngày mua</th>
+                            <th>Trạng thái</th>
+                            <th>Chi tiết</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>#CN39487222</td>
+                            <td>PIXMA G4780</td>
+                            <td>07/02/2025</td>
+                            <td><span class="badge bg-warning text-dark">Đang xử lý</span></td>
+                            <td><a href="#" class="btn btn-outline-danger btn-sm rounded-pill">Xem</a></td>
+                        </tr>
+                        <tr>
+                            <td>#CN20473827</td>
+                            <td>CanoScan 9000F Mark II</td>
+                            <td>08/02/2025</td>
+                            <td><span class="badge bg-info text-dark">Đang giao</span></td>
+                            <td><a href="#" class="btn btn-outline-danger btn-sm rounded-pill">Xem</a></td>
+                        </tr>
+                        <tr>
+                            <td>#CN99957483</td>
+                            <td>EOS R100 (RF-S18-45mmf/4.5-6.3 IS STM)</td>
+                            <td>20/09/2025</td>
+                            <td><span class="badge bg-success">Đã giao</span></td>
+                            <td><a href="#" class="btn btn-outline-danger btn-sm rounded-pill">Xem</a></td>
+                        </tr>
+                        <tr>
+                            <td>#CN29483756</td>
+                            <td>EOS R50 V (Body)</td>
+                            <td>27/09/2025</td>
+                            <td><span class="badge bg-success">Đã giao</span></td>
+                            <td><a href="#" class="btn btn-outline-danger btn-sm rounded-pill">Xem</a></td>
+                        </tr>
+                        <tr>
+                            <td>#CN3948473822</td>
+                            <td>MAXIFY GX6570</td>
+                            <td>01/10/2025</td>
+                            <td><span class="badge bg-warning text-dark">Đang xử lý</span></td>
+                            <td><a href="#" class="btn btn-outline-danger btn-sm rounded-pill">Xem</a></td>
+                        </tr>
+                        <tr>
+                            <td>#CN20473827</td>
+                            <td>LEGRIA / VIXIA HF G70</td>
+                            <td>28/09/2025</td>
+                            <td><span class="badge bg-info text-dark">Đang giao</span></td>
+                            <td><a href="#" class="btn btn-outline-danger btn-sm rounded-pill">Xem</a></td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </main>
