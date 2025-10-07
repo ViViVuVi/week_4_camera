@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+
+<header>
+    <nav class="navbar navbar-expand-lg bg-light px-3">
+        <div class="container-fluid">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="../images/canon-logo.png" height="40" class="me-2">
+            </a>
+            <span class="me-auto d-none d-md-inline">Việt Nam</span>
+
+            <div class="d-flex align-items-center justify-content-end gap-4">
+                <div class="d-flex gap-2">
+                    <button type="button" class="btn p-0 text-secondary">Khách hàng cá nhân</button>
+                    <span class="text-muted">|</span>
+                    <button type="button" class="btn p-0 text-danger fw-bold">Khách hàng doanh nghiệp</button>
+                </div>
+
+                <button class="btn p-0 text-secondary">
+                    <i class="bi bi-search fs-5"></i>
+                </button>
+
+                <div class="d-flex gap-2">
+                    <button type="button" class="btn p-0 text-secondary">ENG</button>
+                    <span class="text-muted">|</span>
+                    <button type="button" class="btn p-0 text-danger fw-bold">Việt</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid justify-content-center">
+            <ul class="navbar-nav flex-row flex-wrap gap-4">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="">Các sản phẩm</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="">Dịch vụ kinh doanh</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="">Nơi mua</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="">Tin tức và ấn phẩm</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="">Khám phá CB Space</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="">Sự Kiện</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="">Liên hệ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-danger fw-bold" href="">Thay đổi thông tin</a>
+                <li class="nav-item">
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="">Hỗ trợ</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<body>
+    <main class="py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 border rounded shadow p-4 bg-light">
+
+                    <!-- 🧭 Centered Intro Text -->
+                    <div class="text-center mb-4">
+                        <h4 class="fs-1">Cập nhật thông tin cá nhân</h4>
+                        <p>
+                            Nếu bạn nhập sai hoặc muốn thay đổi thông tin cá nhân bạn gửi cho Canon, hãy nhập thông tin
+                            mới vào form bên dưới.<br>
+                            Chúng tôi sẽ cố gắng thay đổi thông tin của bạn ngay lập tức.
+                        </p>
+                    </div>
+
+                    <hr>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p><strong>Công ty TNHH Canon Marketing Việt Nam</strong><br>
+                                Phòng 702, Tầng 7, Tòa nhà The Plaza<br>
+                                54-56 Nguyễn Huệ, P. Bến Nghé, Q.1, TP. Hồ Chí Minh</p>
+
+                            <p><strong>Chi Nhánh tại Hà Nội</strong><br>
+                                Tầng 11, Tòa nhà Daeha Business Center<br>
+                                360 Kim Mã, P. Ngọc Khánh, Q. Ba Đình, TP. Hà Nội</p>
+
+                            <button type="submit" class="btn btn-outline-danger rounded-pill">Liên hệ chúng tôi - Canon
+                                Vietnam
+                                ></button>
+                        </div>
+
+                        <div class="col-md-6">
+                            <form>
+                                <div class="mb-3">
+                                    <select class="form-select rounded-pill" id="title">
+                                        <option selected disabled>Thay đổi danh xưng mới</option>
+                                        <option>Ông</option>
+                                        <option>Bà</option>
+                                        <option>Không muốn nói đến</option>
+                                        <option>Không có danh xưng</option>
+                                    </select>
+                                </div>
+
+                                <div class="mb-3">
+                                    <input type="text" class="form-control rounded-pill" id="name"
+                                        placeholder="Thay đổi họ và tên...">
+                                </div>
+
+                                <div class="mb-3">
+                                    <input type="tel" class="form-control rounded-pill" id="phone"
+                                        placeholder="Thay đổi số điện thoại...">
+                                </div>
+
+                                <div class="mb-3">
+                                    <input type="email" class="form-control rounded-pill" id="email"
+                                        placeholder="Thay đổi gmail..">
+                                </div>
+
+                                <div class="mb-3">
+                                    <input class="form-control rounded-pill" id="city"
+                                        placeholder="Thay đổi thành phố / Tỉnh ...">
+                                </div>
+
+                                <button type="submit" class="btn btn-primary btn-danger rounded-pill">Gửi thông tin
+                                    mới</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+<hr class="border-black">
+
+<footer class="bg-white text-black pt-5 pb-3 mt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 mb-4">
+                <h5 class="text-uppercase">Công ty</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-black text-decoration-none">Về chúng tôi</a></li>
+                    <li><a href="#" class="text-black text-decoration-none">Phát triển bền vững</a></li>
+                    <li><a href="#" class="text-black text-decoration-none">Trang mạng xã hội chính thức</a></li>
+                    <li><a href="#" class="text-black text-decoration-none">Tin tức và ấn phẩm</a></li>
+                    <li><a href="#" class="text-black text-decoration-none">Sự Kiện</a></li>
+                    <li><a href="#" class="text-black text-decoration-none">Quy định sử dụng</a></li>
+                    <li><a href="#" class="text-black text-decoration-none">Chính sách bảo mật</a></li>
+                </ul>
+
+                <a class="text-black fw-bold text-decoration-none"><i class="bi bi-globe-americas"></i> Các trang Canon
+                    khác</a>
+                <br>
+                <i class="bi bi-facebook"></i> <i class="bi bi-instagram"></i> <i class="bi bi-youtube"></i>
+            </div>
+
+            <div class="col-md-3 mb-4">
+                <h5 class="text-uppercase">Các sản phẩm</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-black text-decoration-none">Máy ảnh</a></li>
+                    <li><a href="#" class="text-black text-decoration-none">Máy in</a></li>
+                    <li><a href="#" class="text-black text-decoration-none">Máy scan</a></li>
+                    <li><a href="#" class="text-black text-decoration-none">Máy quay phim</a></li>
+                    <li><a href="#" class="text-black text-decoration-none">Máy chiếu</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-3 mb-4">
+                <h5 class="text-uppercase">Dịch vụ</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-black text-decoration-none">Mua</a></li>
+                    <li><a href="#" class="text-black text-decoration-none">Chống hàng giả</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-3 mb-4">
+                <h5 class="text-uppercase">Hỗ trợ & Tải file</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-black text-decoration-none">Hỗ trợ & Tải file</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <hr class="border-black">
+
+        <div class="row">
+            <div class="col-md-8">
+                <p class="mb-0 small text-gray">
+                    Bản quyền © 2023 CÔNG TY TNHH CANON MARKETING VIỆT NAM<br>
+                    GDKD/ĐKNT: 0101380106 do Sở KH&ĐT Hà Nội cấp ngày 25/05/2012<br>
+                    Phòng 203, Tầng 2, Tòa nhà Zen Plaza, 54-56 Nguyễn Trãi, Quận 1, Thành phố Hồ Chí Minh. +84-28-38200
+                    466
+                </p>
+            </div>
+            <div class="col-md-4 text-md-end mt-3 mt-md-0">
+                <img src="../images/bocongthuong.png" alt="Bộ Công Thương" style="height: 40px;">
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+</html>
